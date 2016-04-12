@@ -1,0 +1,27 @@
+
+
+#include <iostream>
+using namespace std;
+void main () {
+	char C;
+
+	for (C = 'J'; C>='A'; C--) {
+		if (C=='A'){
+		cout<<C;
+		}else {
+			cout<< C<<",";}
+
+	}
+	cout<< endl<<endl;
+
+	for (C = 'A'; C<='J'; C++) {
+		if (C=='J'){
+		cout<<C;
+		}else {
+			cout<< C<<",";}
+	
+	}
+	cout<<endl;
+
+	system ("pause");
+}
